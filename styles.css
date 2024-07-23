@@ -759,95 +759,89 @@ body {
     
     }
 }
-/* Highlight for specific text */
-.highlight {
-    color: orange;
-    font-weight: normal;
-}
 
-/* General styling for the wooden-frames section */
-.wooden-frames {
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #fff;
-    margin-top: 20px;
 }
 
-.wooden-frames h1 {
+.specialization-section h1 {
     font-size: 52px;
+    color: #000;
     margin-bottom: 10px;
     font-weight: normal;
 }
 
-.wooden-frames p {
+.highlight {
+    color: #FFA500; /* Orange color */
+}
+
+.description {
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-/* Image gallery styling */
-.image-gallery-3 {
+.image-gallery-4 {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 20px; /* Default gap, adjust if needed */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
-.image-gallery-3 img {
-    width: calc(50% - 10px); /* Adjust width for 2 images per row with some gap */
-    height: auto;
+.image-gallery-4 img {
+    width: calc(50% - 10px); /* For two images per row with 10px gap */
+   width: 500px;
+   height : 500px
 }
 
-.image-gallery-3 img:hover {
-    transform: scale(1.0);
-}
-
-/* Media Queries */
 @media (max-width: 768px) {
-    .wooden-frames h1 {
-        font-size: 30px;
-        margin-bottom: 8px;
+    .container {
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
     }
 
-    .wooden-frames p {
+    .specialization-section h1 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .description {
         font-size: 16px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
-    .image-gallery-3 {
-        gap: 10px;
-    }
-
-    .image-gallery-3 img {
-        width: calc(20% - 5px); /* 2 images per row with a small gap */
-    }
-
-    .highlight {
-        font-size: 30px;
+    .image-gallery-4 img {
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media (max-width: 480px) {
-    .wooden-frames h1 {
-        font-size: 24px;
-        margin-bottom: 6px;
+    .container {
+        text-align: center;
+        margin: 0 auto; /* Ensure container is centered */
     }
 
-    .wooden-frames p {
+    .specialization-section h1 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .description {
         font-size: 14px;
-        margin-bottom: 10px;
     }
 
-    .image-gallery-3 {
-        gap: 5px;
-    }
-
-    .image-gallery-3 img {
-        width: calc(50% - 2.5px); /* 2 images per row with a small gap */
-    }
-
-    .highlight {
-        font-size: 24px;
+    .image-gallery-4 img {
+        width: 250px;
+        height: 250px;
     }
 }
+
+    
 /* General styling for the footer */
 .footer {
     background-color: #000;
