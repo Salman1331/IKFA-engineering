@@ -9,6 +9,8 @@ body {
     width: 100%;
     height:100%;
     overflow-x: hidden;
+    
+    
 }
 /* Initial state for sliding elements */
 .slide-in {
@@ -758,7 +760,8 @@ body {
         margin-top: 10px;
     
     }
-}
+} 
+
 
 .container {
     width: 100%;
@@ -840,8 +843,6 @@ body {
         height: 250px;
     }
 }
-
-    
 /* General styling for the footer */
 .footer {
     background-color: #000;
@@ -979,9 +980,10 @@ body {
     background-image: url('img/type\ 2.jpg');
     background-size: cover;
     background-position: center;
-    padding: 100px 20px;
+    padding: 150px 20px;
     color: white;
     text-align: center;
+    
 }
 
 .category-section .overlay {
@@ -1021,11 +1023,13 @@ body {
 /* Media Queries */
 @media (max-width: 768px) {
     .category-section {
-        padding: 60px 15px;
+        padding: 100px 20px;
+
     }
 
     .category-section h1 {
         font-size: 30px;
+        
     }
 
     .category-section p {
@@ -1036,6 +1040,7 @@ body {
 @media (max-width: 480px) {
     .category-section {
         padding: 40px 10px;
+        
     }
 
     .category-section h1 {
@@ -1079,9 +1084,11 @@ body {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    
     .info-container {
         flex-direction: row;
         text-align: center;
+        
     }
 
     .info-container.reverse {
@@ -1090,13 +1097,13 @@ body {
 
     .info-text {
         padding: 5px;
-        font-size: 13px;
+        font-size: 15px;
         text-align: left;
     }
 
     .info-image img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
 }
 
@@ -1156,7 +1163,7 @@ body {
 }
 
 .about-us-text p {
-    font-size: 25px;
+    font-size: 22px;
     color: #333;
 }
 
@@ -1186,7 +1193,7 @@ body {
     }
 
     .about-us-text p {
-        font-size: 13px;
+        font-size: 16px;
     }
     .about-us-text .orange-text {
         font-weight: normal;
