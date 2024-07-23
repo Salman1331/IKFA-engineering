@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get A Quote</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="quote-header">
+        <a href="index.html" class="back-home">
+            <img src="img/left arrow.svg" alt="Back to Home">
+            <span>Back to Home</span>
+        </a>
+    </header>
+    <h1 class="quote-heading">Get A Quote</h1>
+    <section class="quote-form-section">
+        <div class="quote-form-container">
+            <img src="img/logo.png" alt="Logo" class="form-logo">
+            <form action="#" class="quote-form" onsubmit="sendToWhatsapp(event); return false;">
+                <input type="text" id="quote-name" name="name" placeholder="Your Name" required>
+                <input type="email" id="quote-email" name="email" placeholder="Your Email" required>
+                <input type="tel" id="quote-phone" name="phone" placeholder="Your Mobile Number" required>
+                <textarea id="quote-message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
