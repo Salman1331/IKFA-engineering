@@ -382,9 +382,8 @@ body {
 .info-section .points li {
     margin: 10px 0;
     display: flex;
-    align-items:center;
-    justify-content:center;
-    text-align: center; /* Ensures the text aligns properly */
+    text-align: left; /* Ensures the text aligns properly */
+    padding-left: 350px;
 }
 
 .info-section .blue-tick {
@@ -406,6 +405,7 @@ body {
         align-items:left;
         justify-content:left;
         text-align: left; /* Ensures the text aligns properly */
+        padding-left: 0px;
     }
     
     .info-section h1 {
@@ -437,6 +437,7 @@ body {
         align-items:left;
         justify-content:left;
         text-align: left; /* Ensures the text aligns properly */
+        padding-left: 0px;
     }
     .info-section h1 {
         font-size: 24px;
@@ -455,6 +456,7 @@ body {
         height: 16px;
     }
 }
+
 .wooden-profile {
     padding: 20px 20px;
     text-align: center;
