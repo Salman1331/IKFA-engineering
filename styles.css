@@ -180,6 +180,8 @@ body {
     font-size: 34px;
     margin: 70px 0 0;
     font-weight:lighter;
+    
+  
 }
 
 /* Responsive Design */
@@ -264,7 +266,7 @@ body {
     .hero-content .hero-text p {
         font-size: 15px;
         margin: 20px 0 0;
-        font-weight: lighter;
+
         padding-right:30px;
         padding-top:20px;
 }
@@ -351,7 +353,7 @@ body {
     .hero-content .hero-text p {
         font-size: 16px;
         margin: 15px 0 0;
-        font-weight: lighter;
+        font-weight: normal;
     }
 }
 
@@ -469,8 +471,8 @@ body {
 .wooden-profile h3 {
     font-size: 22px;
     margin-bottom: 20px;
-    color: #040303;
-    font-weight: 100;
+     color: #979797;
+    font-weight: normal;
 }
 
 .wooden-profile .benefits-image {
@@ -617,7 +619,7 @@ body {
 .overlay-content h3 {
     font-size: 25px; /* Adjust font size as needed */
     margin-bottom: 7px;
-    font-weight: 100;
+    font-weight: normal;
 }
 
 .image-gallery {
@@ -1025,7 +1027,7 @@ body {
     font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 /* Media Queries */
@@ -1276,7 +1278,7 @@ body {
     font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
-    font-weight: lighter;
+    font-weight: normal;
     justify-content: center;
 }
 
@@ -1340,7 +1342,8 @@ body {
     font-size: 25px; /* Adjust font size as needed */
     line-height: 1.5;
     margin-bottom: 20px;
-    font-weight: lighter;
+    font-weight: normal;
+     color: #979797;
     
 }
 
@@ -1405,7 +1408,8 @@ body {
     font-size: 25px; /* Adjust font size as needed */
     line-height: 1.5;
     margin-bottom: 20px;
-    font-weight: lighter;
+    font-weight: normal;
+     color: #979797;
     
 }
 
