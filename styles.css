@@ -1553,7 +1553,7 @@ body {
 }
 
 .box {
-    background: rgb(240, 240, 240);
+    background:  rgb(255, 255, 255);
     width: 200px; /* Adjust width as needed */
     height: 200px;
     padding: 20px;
