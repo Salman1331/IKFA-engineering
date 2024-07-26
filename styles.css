@@ -155,10 +155,12 @@ body {
 .hero-content .hero-image {
     position: relative;
     bottom: 0px;
-    left: 50px;
-    max-width: 100%; /* Scale image to fit within its container */
-    height: 80%; /* Maintain aspect ratio */
+    margin-left: -10px;
+    width: 570px; /* Scale image to fit within its container */
+    height: 400px; /* Maintain aspect ratio */
     z-index: 1;
+    margin-bottom: -80px;
+  
 }
 
 .hero-content .hero-text {
@@ -179,9 +181,8 @@ body {
 .hero-content .hero-text p {
     font-size: 34px;
     margin: 70px 0 0;
-    font-weight:lighter;
     
-  
+    
 }
 
 /* Responsive Design */
@@ -242,10 +243,11 @@ body {
     .hero-content .hero-image {
         position: absolute;
         bottom: 20px;
-        left: 20px;
-        width: 450px;
-        height:70%;
+        left: 40px;
+        width:550px ;
+        height: 450px;
         z-index: 1;
+        margin-left:-55px;
     }
     
     .hero-content .hero-text {
@@ -266,7 +268,7 @@ body {
     .hero-content .hero-text p {
         font-size: 15px;
         margin: 20px 0 0;
-
+        font-weight: lighter;
         padding-right:30px;
         padding-top:20px;
 }
@@ -331,9 +333,10 @@ body {
         position: absolute;
         bottom: 20px;
         left: 40px;
-        width:700px ;
-        height: max-content;
+        width:420px ;
+        height: 300px;
         z-index: 1;
+        margin-left:-65px;
     }
 
     .hero-content .hero-text {
@@ -346,14 +349,14 @@ body {
     }
 
     .hero-content .hero-text h1 {
-        font-size: 28px;
+        font-size: 30px;
         margin: auto;
     }
 
     .hero-content .hero-text p {
         font-size: 16px;
         margin: 15px 0 0;
-        font-weight: normal;
+        font-weight: lighter;
     }
 }
 
@@ -456,7 +459,6 @@ body {
         height: 16px;
     }
 }
-
 .wooden-profile {
     padding: 20px 20px;
     text-align: center;
@@ -471,10 +473,10 @@ body {
 }
 
 .wooden-profile h3 {
-    font-size: 22px;
+    font-size: 35px;
     margin-bottom: 20px;
-     color: #979797;
-    font-weight: normal;
+    color: #c3c3c3;
+    font-weight: 100;
 }
 
 .wooden-profile .benefits-image {
@@ -490,8 +492,8 @@ body {
         margin-top: 0px;
     }
 
-    .wooden-profile h2 {
-        font-size: 15px;
+    .wooden-profile h3 {
+        font-size: 18px;
     }
 
     .wooden-profile .benefits-image {
@@ -504,8 +506,8 @@ body {
         margin-top: 0px;
     }
 
-    .wooden-profile h2 {
-        font-size: 14px;
+    .wooden-profile h3 {
+        font-size: 16px;
     }
 
     .wooden-profile .benefits-image {
@@ -577,7 +579,7 @@ body {
     }
     .benefits-section h1 {
         text-align: center;
-        font-size: 20px;
+        font-size: 24px;
         color: #000;
        
     }
@@ -621,7 +623,7 @@ body {
 .overlay-content h3 {
     font-size: 25px; /* Adjust font size as needed */
     margin-bottom: 7px;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 .image-gallery {
@@ -794,16 +796,12 @@ body {
     color: #FFA500; /* Orange color */
 }
 
-.description {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
 .image-gallery-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin-top: 40px;
 }
 
 .image-gallery-4 img {
@@ -824,11 +822,6 @@ body {
         font-weight: normal;
     }
 
-    .description {
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
-
     .image-gallery-4 img {
         width: 200px;
         height: 200px;
@@ -844,10 +837,6 @@ body {
     .specialization-section h1 {
         font-size: 24px;
         font-weight: normal;
-    }
-
-    .description {
-        font-size: 14px;
     }
 
     .image-gallery-4 img {
@@ -1029,7 +1018,7 @@ body {
     font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 /* Media Queries */
@@ -1131,7 +1120,7 @@ body {
 
     .info-text {
         padding: 5px;
-        font-size: 11px;
+        font-size: 10px;
         text-align: left;
     }
 
@@ -1280,7 +1269,7 @@ body {
     font-size: 25px;
     max-width: 800px;
     margin: 0 auto;
-    font-weight: normal;
+    font-weight: lighter;
     justify-content: center;
 }
 
@@ -1344,8 +1333,7 @@ body {
     font-size: 25px; /* Adjust font size as needed */
     line-height: 1.5;
     margin-bottom: 20px;
-    font-weight: normal;
-     color: #979797;
+    font-weight: lighter;
     
 }
 
@@ -1410,8 +1398,7 @@ body {
     font-size: 25px; /* Adjust font size as needed */
     line-height: 1.5;
     margin-bottom: 20px;
-    font-weight: normal;
-     color: #979797;
+    font-weight: lighter;
     
 }
 
@@ -1555,7 +1542,7 @@ body {
 }
 
 .box {
-    background:  rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     width: 200px; /* Adjust width as needed */
     height: 200px;
     padding: 20px;
