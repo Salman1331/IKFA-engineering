@@ -224,6 +224,9 @@ body {
         margin-right: 40px;
         padding-right:20px;
     }
+    .hamburger.active + .navbar {
+        display: flex; /* Show navbar when hamburger is active */
+    }
 
     .navbar.active {
         display: flex; /* Show navbar when active */
@@ -310,6 +313,9 @@ body {
     .hamburger {
         display: flex; /* Show hamburger menu */
         margin-right: 20px;
+    }
+    .hamburger.active + .navbar {
+        display: flex; /* Show navbar when hamburger is active */
     }
 
     .navbar.active {
